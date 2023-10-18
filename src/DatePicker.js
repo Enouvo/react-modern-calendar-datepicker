@@ -145,12 +145,12 @@ const DatePicker = ({
         to: null,
       });
     }
-    setCalendarVisiblity(false);
     onReset();
+    setCalendarVisiblity(false);
   };
   const handleApply = () => {
-    setCalendarVisiblity(false);
     onSubmit();
+    setCalendarVisiblity(false);
   };
 
   const renderFooterDefault = () => (
@@ -240,6 +240,8 @@ DatePicker.defaultProps = {
   wrapperClassName: '',
   locale: 'en',
   calendarPopperPosition: 'top',
+  onSubmit: () => {},
+  onReset: () => {},
 };
 
 export default DatePicker;
