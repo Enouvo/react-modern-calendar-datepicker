@@ -1,6 +1,6 @@
 {
   "name": "@enouvo/react-modern-calendar-datepicker",
-  "version": "4.0.4",
+  "version": "4.0.5",
   "description": "A modern, beautiful, customizable date picker for React",
   "main": "lib/index.js",
   "types": "index.d.ts",
